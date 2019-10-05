@@ -1,0 +1,9 @@
+C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\CalculatorExample\bin\Debug\netcoreapp2.0\CalculatorExample.deps.json
+C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\CalculatorExample\bin\Debug\netcoreapp2.0\CalculatorExample.dll
+C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\CalculatorExample\bin\Debug\netcoreapp2.0\CalculatorExample.pdb
+C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\CalculatorExample\obj\Debug\netcoreapp2.0\CalculatorExample.csprojResolveAssemblyReference.cache
+C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\CalculatorExample\obj\Debug\netcoreapp2.0\CalculatorExample.csproj.CoreCompileInputs.cache
+C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\CalculatorExample\obj\Debug\netcoreapp2.0\CalculatorExample.AssemblyInfoInputs.cache
+C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\CalculatorExample\obj\Debug\netcoreapp2.0\CalculatorExample.AssemblyInfo.cs
+C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\CalculatorExample\obj\Debug\netcoreapp2.0\CalculatorExample.dll
+C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\CalculatorExample\obj\Debug\netcoreapp2.0\CalculatorExample.pdb

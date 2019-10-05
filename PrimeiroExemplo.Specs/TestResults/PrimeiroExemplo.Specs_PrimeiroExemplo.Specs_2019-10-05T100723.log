@@ -1,0 +1,93 @@
+﻿2019-10-05T10:07:22.6553439-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-05T10:07:22.6554991-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework netcore20 in x64 mode execution started
+2019-10-05T10:07:22.6555057-03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\PrimeiroExemplo.Specs\bin\Debug\netcoreapp2.0\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-05T10:07:23.2778961-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\PrimeiroExemplo.Specs\bin\Debug\netcoreapp2.0\PrimeiroExemplo.Specs.dll
+2019-10-05T10:07:23.2793219-03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\TestResults" (default)
+2019-10-05T10:07:23.2795580-03:00;VSTestExecutionThread;Info;Profile: PrimeiroExemplo.Specs
+2019-10-05T10:07:23.4216427-03:00;VSTestExecutionThread;Info;Log file path: C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\TestResults\PrimeiroExemplo.Specs_PrimeiroExemplo.Specs_2019-10-05T100723.log
+2019-10-05T10:07:23.4473456-03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-10-05T10:07:23.4784662-03:00;Thread#13;Info;Checking license
+2019-10-05T10:07:23.5147343-03:00;Thread#13;Info;Evaluation mode: test execution starts in 5 seconds... (this delay is removed in the registered version)
+2019-10-05T10:07:28.5168535-03:00;Thread#13;Info;Evaluation delay finished.
+2019-10-05T10:07:28.5307485-03:00;Thread#13;Info;License check completed
+2019-10-05T10:07:28.5309840-03:00;Thread#13;Info;starting test run
+2019-10-05T10:07:28.5533187-03:00;Thread#13;Info;Discovering target: Default
+2019-10-05T10:07:28.5535704-03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\PrimeiroExemplo.Specs\bin\Debug\netcoreapp2.0\PrimeiroExemplo.Specs.dll
+2019-10-05T10:07:29.1391638-03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\PrimeiroExemplo.Specs\bin\Debug\netcoreapp2.0\PrimeiroExemplo.Specs.dll
+2019-10-05T10:07:29.1435500-03:00:Test Suite Dump
+2019-10-05T10:07:29.1484787-03:00:#0: PrimeiroExemplo.Specs/PrimeiroExemplo.Specs - 
+2019-10-05T10:07:29.1486740-03:00:#1: Default - 
+2019-10-05T10:07:29.1486843-03:00:#2: PrimeiroExemplo.Specs - 
+2019-10-05T10:07:29.1486896-03:00:#3: Calculator - 
+2019-10-05T10:07:29.1491070-03:00:#4: Add two numbers - TestAssembly:PrimeiroExemplo.Specs/Feature:Calculator/Scenario:Add+two+numbers
+2019-10-05T10:07:29.1494671-03:00:End: Test Suite Dump
+2019-10-05T10:07:29.1947778-03:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-05T10:07:29.1997037-03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-10-05T10:07:29.1998411-03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-10-05T10:07:29.2079896-03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-05T10:07:29.2080192-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-10-05T10:07:29.2080255-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-10-05T10:07:29.2080329-03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-10-05T10:07:29.2111625-03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-10-05T10:07:29.2132731-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-05T10:07:29.2202907-03:00:Thread #0: creating new test thread executor for PrimeiroExemplo.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-05T10:07:29.2257611-03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-10-05T10:07:29.2272650-03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-10-05T10:07:29.2303327-03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2019-10-05T10:07:29.2654050-03:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-10-05T10:07:29.3059269-03:00:starting Out Of Process Executor
+2019-10-05T10:07:29.5603181-03:00:Executing test executor at 'C:\Program Files\dotnet\dotnet.exe' '"C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\PrimeiroExemplo.Specs\bin\Debug\netcoreapp2.0\SpecFlowPlusRunner\netcoreapp2.0\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp2_0.dll" 18316 2019-10-05T100723 "C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\TestResults" debug' in 'C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\PrimeiroExemplo.Specs\bin\Debug\netcoreapp2.0'
+2019-10-05T10:07:29.5653143-03:00;Thread#13;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2019-10-05T10:07:29.8063123-03:00;Thread#13;Info;Successfully started SpecFlow+ Runner executor process
+2019-10-05T10:07:29.8066749-03:00:Entering Memory Barrier for 16364
+2019-10-05T10:07:29.8066849-03:00:Leaving Memory Barrier for 16364
+2019-10-05T10:07:29.8196075-03:00:Out of Process Executor 16364 started
+2019-10-05T10:07:29.8994839-03:00:Waiting for endpoint
+2019-10-05T10:07:29.9031129-03:00:trying to connect to Out of Process Executor the 1 attempt
+2019-10-05T10:07:30.7479215-03:00:waiting for Connection of SpecRun.Executor.16364.Logger ended
+2019-10-05T10:07:30.7536949-03:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a
+2019-10-05T10:07:30.7606659-03:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a
+2019-10-05T10:07:30.7682456-03:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-10-05T10:07:31.0021544-03:00:Connection to Out of Process Executor established in the 1 attempt
+2019-10-05T10:07:31.7330024-03:00:waiting for Connection of SpecRun.Executor.16364.Callback ended
+2019-10-05T10:07:32.1354986-03:00:2019-10-05T10:07:31.9528256-03:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\PrimeiroExemplo.Specs\bin\Debug\netcoreapp2.0\PrimeiroExemplo.Specs.dll on test thread #0
+2019-10-05T10:07:32.1684253-03:00:Endpoint 16364 started
+2019-10-05T10:07:32.2212763-03:00:2019-10-05T10:07:32.2201405-03:00:OutOfProcessTestAssemblyExecutor: running tests...
+2019-10-05T10:07:32.4524348-03:00:Thread#0: Test #4/0 is started on thread #0
+2019-10-05T10:07:32.5429827-03:00:2019-10-05T10:07:32.5021515-03:00:Thread#0:T:2019-10-05T10:07:32.4952717-03:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-10-05T10:07:32.7245656-03:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-05T10:07:32.7246274-03:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-05T10:07:32.7246432-03:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-10-05T10:07:32.7246568-03:00:Thread#0:Scheduler: No more tests for thread
+2019-10-05T10:07:32.7291514-03:00:2019-10-05T10:07:32.7281988-03:00:Thread#0:T:2019-10-05T10:07:32.7279425-03:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-10-05T10:07:32.8458635-03:00:Thread#0: Test #4/0 is finished on thread #0 as InitializationFailed within 0,3920404 seconds
+2019-10-05T10:07:32.8689032-03:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2019-10-05T10:07:32.8798683-03:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a
+2019-10-05T10:07:32.8840607-03:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a
+2019-10-05T10:07:32.9646268-03:00:Unable to stop executor process: System.InvalidOperationException: No process is associated with this object.
+   at System.Diagnostics.Process.EnsureState(State state)
+   at System.Diagnostics.Process.get_HasExited()
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.OutProcExecutorManager.StopExecutorProcess(Process executorProcess)
+2019-10-05T10:07:32.9835604-03:00:Thread#-1:Scheduler: get next test for thread -1
+2019-10-05T10:07:32.9835913-03:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-05T10:07:32.9836003-03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-10-05T10:07:32.9878780-03:00;Thread#13;Info;test run finished
+2019-10-05T10:07:32.9881093-03:00;Thread#13;Info;publishing test results
+2019-10-05T10:07:32.9892811-03:00;Thread#13;Info;Not publishing results.
+2019-10-05T10:07:32.9896686-03:00;Thread#13;Info;test results published
+2019-10-05T10:07:32.9898711-03:00;Thread#13;Info;generating reports
+2019-10-05T10:07:33.1472412-03:00;Thread#13;Info;Starting external report generation process
+2019-10-05T10:07:36.3044994-03:00;Thread#13;Info;Successfully generated reports.
+2019-10-05T10:07:36.3081803-03:00;Thread#13;Info;Successfully generated reports
+2019-10-05T10:07:36.3575337-03:00:Total: 1
+2019-10-05T10:07:36.3630602-03:00:Succeeded: 0
+2019-10-05T10:07:36.3643537-03:00:Ignored: 0
+2019-10-05T10:07:36.3655790-03:00:Pending: 0
+2019-10-05T10:07:36.3656101-03:00:Skipped: 0
+2019-10-05T10:07:36.3668020-03:00:Failed: 1
+2019-10-05T10:07:36.4011821-03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-10-05T10:07:36.4015724-03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\QA\source\repos\SpecFlow\SpecFlowExploring\PrimeiroExemplo.Specs\TestResults\PrimeiroExemplo.Specs_PrimeiroExemplo.Specs_2019-10-05T100723.html'
+========== End of log file ==========
