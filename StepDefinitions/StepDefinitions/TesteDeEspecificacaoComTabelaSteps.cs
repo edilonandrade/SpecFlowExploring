@@ -12,10 +12,13 @@ namespace StepDefinitions
 
         [Given(@"os livros abaixo")]
         public void DadoOsLivrosAbaixo(Table table)
-        {          
-           livros = table.CreateSet<Livro>(); 
+        {
+            //Exemplo para pegar uma linha específica da tabela para criar uma instância
+            var livro = table.Rows[0].CreateInstance<Livro>();
+            //Pegando todos os dados da tabela para transforma num Enumberable
+            livros = table.CreateSet<Livro>();            
         }
-        
+
         [When(@"eu faço a tranferencia dos livro para uma outra variavel")]
         public void QuandoEuFacoATranferenciaDosLivroParaUmaOutraVariavel()
         {
