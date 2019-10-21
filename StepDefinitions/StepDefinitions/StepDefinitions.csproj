@@ -84,13 +84,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AcoesIguaisSteps.cs" />
-    <Compile Include="Livro.cs" />
+    <Compile Include="Steps\AcoesIguaisSteps.cs" />
+    <Compile Include="Model\Livro.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TesteDeEspecificacaoComTabelaSteps.cs" />
+    <Compile Include="Steps\ChamandoPassosDeDefinicaoPassoSteps.cs" />
+    <Compile Include="Steps\TesteDeEspecificacaoComTabelaSteps.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="AcoesIguais.feature" />
+    <None Include="Features\AcoesIguais.feature" />
+    <None Include="Features\ChamandoPassosDeDefinicaoPasso.feature" />
     <None Include="packages.config" />
     <None Include="runtests.cmd" />
     <None Include="SpecRunTestProfile.xsd">
@@ -99,7 +101,7 @@
     <None Include="SpecRunTestProfile_2011_09.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="TabelaMultiplasLinhaTexto.feature" />
+    <None Include="Features\TabelaMultiplasLinhaTexto.feature" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

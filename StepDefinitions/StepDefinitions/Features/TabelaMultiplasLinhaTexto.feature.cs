@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace StepDefinitions
+namespace StepDefinitions.Features
 {
     using TechTalk.SpecFlow;
     
@@ -18,7 +18,7 @@ namespace StepDefinitions
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [TechTalk.SpecRun.FeatureAttribute("Teste de especificação com tabela", Description="\tComo Estudante do SpecFlow\r\n\tEu quero fazer um teste com tabela\r\n\tDe modo que eu" +
-        " possa entender como os dados de tabela se comportam", SourceFile="TabelaMultiplasLinhaTexto.feature", SourceLine=2)]
+        " possa entender como os dados de tabela se comportam", SourceFile="Features\\TabelaMultiplasLinhaTexto.feature", SourceLine=2)]
     public partial class TesteDeEspecificacaoComTabelaFeature
     {
         
@@ -76,20 +76,6 @@ namespace StepDefinitions
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
 #line hidden
-            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
-                        "Autor",
-                        "Titulo"});
-            table1.AddRow(new string[] {
-                        "Martin Fowler",
-                        "Analysis Patterns"});
-            table1.AddRow(new string[] {
-                        "Gojko Adzic",
-                        "Briding the Communication Gap"});
-#line 9
- testRunner.Given("os livros abaixo", ((string)(null)), table1, "Dado ");
-#line 13
- testRunner.When("eu faço a tranferencia dos livro para uma outra variavel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
-#line hidden
             TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                         "Autor",
                         "Titulo"});
@@ -99,8 +85,22 @@ this.ScenarioInitialize(scenarioInfo);
             table2.AddRow(new string[] {
                         "Gojko Adzic",
                         "Briding the Communication Gap"});
+#line 9
+ testRunner.Given("os livros abaixo", ((string)(null)), table2, "Dado ");
+#line 13
+ testRunner.When("eu faço a tranferencia dos livro para uma outra variavel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+#line hidden
+            TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Autor",
+                        "Titulo"});
+            table3.AddRow(new string[] {
+                        "Martin Fowler",
+                        "Analysis Patterns"});
+            table3.AddRow(new string[] {
+                        "Gojko Adzic",
+                        "Briding the Communication Gap"});
 #line 14
- testRunner.Then("verifico que os dados estão iguais aos abaixo", ((string)(null)), table2, "Então ");
+ testRunner.Then("verifico que os dados estão iguais aos abaixo", ((string)(null)), table3, "Então ");
 #line hidden
             this.ScenarioCleanup();
         }

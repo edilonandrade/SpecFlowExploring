@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace StepDefinitions
+namespace StepDefinitions.Features
 {
     using TechTalk.SpecFlow;
     
@@ -18,7 +18,7 @@ namespace StepDefinitions
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [TechTalk.SpecRun.FeatureAttribute("AcoesIguais", Description="\tComo Estudante do SpecFlow\r\n\tEu quero fazer um teste de duas ações fazendo a mes" +
-        "mo coisa\r\n\tDe modo que eu consiga validar que precisar usar epenas um Binding", SourceFile="AcoesIguais.feature", SourceLine=3)]
+        "mo coisa\r\n\tDe modo que eu consiga validar que precisar usar epenas um Binding", SourceFile="Features\\AcoesIguais.feature", SourceLine=3)]
     public partial class AcoesIguaisFeature
     {
         
