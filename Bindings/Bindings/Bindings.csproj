@@ -85,12 +85,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Steps\AsynchronousBindingsExampleSteps.cs" />
     <Compile Include="Steps\DifferentStepsforDifferentTagsSteps.cs" />
     <Compile Include="Steps\ExampleHookExecutionOrderSteps.cs" />
     <Compile Include="Steps\ScopedBindingsExampleSteps.cs" />
     <Compile Include="Steps\ScopingTipsAndTricksExampleSteps.cs" />
+    <Compile Include="WebRequest\Specs\Drivers\WebDriver.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Features\AsynchronousBindingsExample.feature" />
     <None Include="Features\DifferentStepsforDifferentTags.feature" />
     <None Include="Features\ExampleHookExecutionOrder.feature" />
     <None Include="Features\ScopedBindingsExample.feature" />

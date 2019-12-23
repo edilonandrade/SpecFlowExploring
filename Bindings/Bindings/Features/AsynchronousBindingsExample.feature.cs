@@ -17,20 +17,20 @@ namespace Bindings.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("ScopingTipsAndTricksExample", SourceFile="Features\\ScopingTipsAndTricksExample.feature", SourceLine=0)]
-    public partial class ScopingTipsAndTricksExampleFeature
+    [TechTalk.SpecRun.FeatureAttribute("AsynchronousBindingsExample", SourceFile="Features\\AsynchronousBindingsExample.feature", SourceLine=0)]
+    public partial class AsynchronousBindingsExampleFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "ScopingTipsAndTricksExample.feature"
+#line 1 "AsynchronousBindingsExample.feature"
 #line hidden
         
         [TechTalk.SpecRun.FeatureInitialize()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "ScopingTipsAndTricksExample", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "AsynchronousBindingsExample", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -66,38 +66,15 @@ namespace Bindings.Features
             testRunner.CollectScenarioErrors();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Tips And Tricks without parametrs", new string[] {
-                "manual"}, SourceLine=3)]
-        public virtual void TipsAndTricksWithoutParametrs()
+        [TechTalk.SpecRun.ScenarioAttribute("Acessar a página web", SourceLine=2)]
+        public virtual void AcessarAPaginaWeb()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Tips And Tricks without parametrs", null, new string[] {
-                        "manual"});
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Acessar a página web", null, ((string[])(null)));
+#line 3
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
 #line 4
-this.ScenarioInitialize(scenarioInfo);
-            this.ScenarioStart();
-#line 5
- testRunner.Given("", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 6
- testRunner.When("", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 7
- testRunner.Then("", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [TechTalk.SpecRun.ScenarioAttribute("Tips And Tricks with one parameter string", SourceLine=8)]
-        public virtual void TipsAndTricksWithOneParameterString()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Tips And Tricks with one parameter string", null, ((string[])(null)));
-#line 9
-this.ScenarioInitialize(scenarioInfo);
-            this.ScenarioStart();
-#line 10
- testRunner.Given("\"parametro\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 11
- testRunner.When("\"pametro\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 12
- testRunner.Then("\"Parametro\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.When("I want to get the web page \"https://www.google.com/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             this.ScenarioCleanup();
         }
