@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using TechTalk.SpecFlow;
 
 namespace Bindings.Steps
@@ -6,6 +7,7 @@ namespace Bindings.Steps
     [Binding]
     public class ExampleHookExecutionOrderSteps
     {
+        //Order is a hook's atributes that define a order execution of the same hook
         [BeforeScenario(Order = 100)]
         public void LoginUser()
         {
@@ -36,5 +38,19 @@ namespace Bindings.Steps
             Debug.Print("Não implementado, somente para teste do BeforeScenario Order\n");
         }
 
+        [BeforeScenario("mytag")]
+        public void ChamandoMyTag()
+        {
+            Debug.Print("Foi chamada pelo execução do cenário de outro passo");
+
+            //Beyond Scope
+            //if (ScenarioContext.Current.ScenarioInfo.Tags.Contais("automated"))
+            //    StartSelenium();
+        }
+
+        private void StartSelenium()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
