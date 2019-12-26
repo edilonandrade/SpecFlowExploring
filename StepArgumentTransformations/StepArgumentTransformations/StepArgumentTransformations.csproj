@@ -110,6 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Steps\MyStepArgumentTransformations.cs" />
     <Compile Include="Steps\OrderingItemStockSteps.cs" />
     <Compile Include="Steps\StepArgumentTransformationsExampleSteps.cs" />
     <Compile Include="Steps\Transforms.cs" />
