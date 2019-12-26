@@ -13,7 +13,7 @@ Scenario: Ordering the last item in stock
 Scenario: Ordering no item in stock
   Given we have 'no' items in stock.
   When we order '1' item
-  Then we should have '-1' items in stock left.
+  Then we should have '0' items in stock left.
 
 Scenario Outline: Ordering items in stock
   Given we have '<ItemsInStock>' items in stock.

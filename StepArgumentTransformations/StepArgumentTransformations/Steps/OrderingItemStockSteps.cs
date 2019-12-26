@@ -10,21 +10,23 @@ namespace StepArgumentTransformations.Steps
         [Given(@"we have '(.*)' items in stock\.")]
         public void GivenWeHaveItemsInStock(int itemsInStockExpression)
         {
-            Debug.Print(ScenarioContext.Current.ScenarioInfo.Title);
-            Debug.Print($"Parâmetro {itemsInStockExpression}");
+            //Debug.Print(ScenarioContext.Current.ScenarioInfo.Title);
+            //Debug.Print($"Parâmetro {itemsInStockExpression}");
             //...set up the stock
         }
 
         [When(@"we order '(.*)' item")]
-        public void WhenWeOrderItem(int p0)
+        public void WhenWeOrderItem(string p0)
         {
             Debug.Print(ScenarioContext.Current.ScenarioInfo.Title);
         }
         
         [Then(@"we should have '(.*)' items in stock left\.")]
-        public void ThenWeShouldHaveItemsInStockLeft_(int p0)
+        public void ThenWeShouldHaveItemsInStockLeft_(string p0)
         {
-            Debug.Print(ScenarioContext.Current.ScenarioInfo.Title);
+            //Debug.Print(ScenarioContext.Current.ScenarioInfo.Title);
+            Debug.Print($"Parâmetro {p0}");
+
         }
     }
 }

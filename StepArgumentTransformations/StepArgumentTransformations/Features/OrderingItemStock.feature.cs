@@ -178,7 +178,7 @@ this.ScenarioInitialize(scenarioInfo);
   testRunner.When("we order \'1\' item", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 16
-  testRunner.Then("we should have \'-1\' items in stock left.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.Then("we should have \'0\' items in stock left.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

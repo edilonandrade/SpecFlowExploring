@@ -5,7 +5,8 @@ namespace StepArgumentTransformations.Steps
     [Binding]
     public class MyStepArgumentTransformations
     {
-        [StepArgumentTransformation]
+        //This is possible by specifying a regular expression for the transformation
+        [StepArgumentTransformation(@"(\d+|no)")]        
         public int TransformItemsInStockExpressionToInteger(string expression)
         {
             if (expression == "no")
