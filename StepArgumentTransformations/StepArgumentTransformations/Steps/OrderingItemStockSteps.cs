@@ -10,13 +10,19 @@ namespace StepArgumentTransformations.Steps
         [Given(@"we have '(.*)' items in stock\.")]
         public void GivenWeHaveItemsInStock(string itemsInStockExpression)
         {
-            var itemsInStock = (itemsInStockExpression == "no")
-                ? 0
-                : int.Parse(itemsInStockExpression);
+            var itemsInStock = GetNumberFromHumanString(itemsInStockExpression);
 
             //...set up the stock
         }
-        
+
+        private int GetNumberFromHumanString(string itemsInStockExpression)
+        {
+            if (itemsInStockExpression == "no")
+                return 0;
+
+            return int.Parse(itemsInStockExpression);
+        }
+
         [When(@"we order '(.*)' item")]
         public void WhenWeOrderItem(int p0)
         {
