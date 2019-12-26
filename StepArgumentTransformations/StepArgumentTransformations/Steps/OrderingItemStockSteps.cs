@@ -8,10 +8,13 @@ namespace StepArgumentTransformations.Steps
     public class OrderingItemStockSteps
     {
         [Given(@"we have '(.*)' items in stock\.")]
-        public void GivenWeHaveItemsInStock(string p0)
+        public void GivenWeHaveItemsInStock(string itemsInStockExpression)
         {
-            Debug.Print(ScenarioContext.Current.ScenarioInfo.Title);
-            Debug.Print($"Parâmetro {p0}");
+            var itemsInStock = (itemsInStockExpression == "no")
+                ? 0
+                : int.Parse(itemsInStockExpression);
+
+            //...set up the stock
         }
         
         [When(@"we order '(.*)' item")]
