@@ -14,5 +14,14 @@ namespace StepArgumentTransformations.Steps
 
             return int.Parse(expression);
         }
+
+        [StepArgumentTransformation]
+        public HumanReadableIntegerExpression TransformHumanReadableIntegerExpression(string expression)
+        {
+            if (expression == "no")
+                return new HumanReadableIntegerExpression(0);
+
+            return new HumanReadableIntegerExpression(int.Parse(expression));
+        }
     }
 }
