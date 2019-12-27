@@ -109,11 +109,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\Product.cs" />
     <Compile Include="Steps\CreateInstanceExampleSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Steps\CreateSetExampleSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Feature\CreateInstanceExample.feature" />
+    <None Include="Feature\CreateSetExample.feature" />
     <None Include="packages.config" />
     <None Include="runtests.cmd" />
     <None Include="SpecRunTestProfile.xsd">
