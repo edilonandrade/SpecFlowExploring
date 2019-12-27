@@ -22,6 +22,16 @@ namespace SpecFlowAssistHelpers.Steps
             var _account = account.CreateInstance<Account>();
             foreach (var prop in _account.GetType().GetProperties())
                 Debug.Print($"{prop.Name} - {prop.GetValue(_account, null)}");
+
+            Debug.Print("Exemplo para o segundo tipo de mapeamento.");
+
+            var _accountDois = account.CreateInstance<(string name, DateTime birthDate,
+                int heightInInches, decimal bankAccountBalance)>();
+
+            Debug.Print($"Name: {_accountDois.name}");
+            Debug.Print($"BirthDate: {_accountDois.birthDate}");
+            Debug.Print($"HeightInInches: {_accountDois.heightInInches}");
+            Debug.Print($"BankAccountBalance: {_accountDois.bankAccountBalance}");
         }
 
     }
