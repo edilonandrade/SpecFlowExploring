@@ -19,22 +19,22 @@ namespace SpecFlowAssistHelpers.Feature
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.1.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("CreateSetExample", SourceFile="Feature\\CreateSetExample.feature", SourceLine=0)]
-    public partial class CreateSetExampleFeature
+    [TechTalk.SpecRun.FeatureAttribute("CompareToSetExample", SourceFile="Feature\\CompareToSetExample.feature", SourceLine=0)]
+    public partial class CompareToSetExampleFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
         private string[] _featureTags = ((string[])(null));
         
-#line 1 "CreateSetExample.feature"
+#line 1 "CompareToSetExample.feature"
 #line hidden
         
         [TechTalk.SpecRun.FeatureInitialize()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CreateSetExample", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CompareToSetExample", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -70,11 +70,11 @@ namespace SpecFlowAssistHelpers.Feature
             testRunner.CollectScenarioErrors();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Os produtos existentes", SourceLine=2)]
-        public virtual void OsProdutosExistentes()
+        [TechTalk.SpecRun.ScenarioAttribute("Comparando várias informações", SourceLine=2)]
+        public virtual void ComparandoVariasInformacoes()
         {
             string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Os produtos existentes", null, ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Comparando várias informações", null, ((string[])(null)));
 #line 3
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -95,20 +95,20 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
-                            "Sku",
-                            "Name",
-                            "Price"});
-                table5.AddRow(new string[] {
-                            "BOOK1",
-                            "Atlas Shrugged",
-                            "25.04"});
-                table5.AddRow(new string[] {
-                            "BOOK2",
-                            "The Fountainhead",
-                            "20.15"});
+                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                            "Id",
+                            "FirstName",
+                            "LastName"});
+                table2.AddRow(new string[] {
+                            "1",
+                            "John",
+                            "Galt"});
+                table2.AddRow(new string[] {
+                            "2",
+                            "Howard",
+                            "Roark"});
 #line 4
- testRunner.Given("these products exist", ((string)(null)), table5, "Given ");
+ testRunner.Then("I get back the following accounts", ((string)(null)), table2, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

@@ -8,5 +8,10 @@ namespace SpecFlowAssistHelpers.Models
 	    public DateTime Birthdate { get; set; }
 	    public int HeightInInches { get; set; }
 	    public float BankAccountBalance { get; set; }
+
+        public string Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string MiddleName { get; set; }
     }
 }
