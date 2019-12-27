@@ -95,20 +95,20 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                             "Field",
                             "Value"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "FirstName",
                             "John"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "LastName",
                             "Galt"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "YearsOld",
                             "54"});
 #line 4
- testRunner.Then("the person should have the following values", ((string)(null)), table1, "Then ");
+ testRunner.Then("the person should have the following values", ((string)(null)), table3, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

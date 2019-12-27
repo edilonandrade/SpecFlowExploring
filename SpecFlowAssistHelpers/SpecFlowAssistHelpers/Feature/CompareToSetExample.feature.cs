@@ -95,20 +95,20 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                             "Id",
                             "FirstName",
                             "LastName"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "1",
                             "John",
                             "Galt"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "2",
                             "Howard",
                             "Roark"});
 #line 4
- testRunner.Then("I get back the following accounts", ((string)(null)), table2, "Then ");
+ testRunner.Then("I get back the following accounts", ((string)(null)), table4, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

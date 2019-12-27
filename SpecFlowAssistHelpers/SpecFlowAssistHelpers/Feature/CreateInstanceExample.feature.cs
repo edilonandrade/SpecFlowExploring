@@ -95,23 +95,23 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                             "Field",
                             "Value"});
-                table3.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "Name",
                             "John Galt"});
-                table3.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "Birthdate",
                             "2/2/1902"});
-                table3.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "HeightInInches",
                             "72"});
-                table3.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "BankAccountBalance",
                             "1234.56"});
 #line 4
- testRunner.Given("I entered the following data into the new account form in vertical:", ((string)(null)), table3, "Given ");
+ testRunner.Given("I entered the following data into the new account form in vertical:", ((string)(null)), table5, "Given ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -142,18 +142,18 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                             "Name",
                             "Birthdate",
                             "HeightInInches",
                             "BankAccountBalance"});
-                table4.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "John Galt",
                             "2/2/1902",
                             "72",
                             "1234.56"});
 #line 12
- testRunner.Given("I entered the following data into the new account form in horizontal:", ((string)(null)), table4, "Given ");
+ testRunner.Given("I entered the following data into the new account form in horizontal:", ((string)(null)), table6, "Given ");
 #line hidden
             }
             this.ScenarioCleanup();

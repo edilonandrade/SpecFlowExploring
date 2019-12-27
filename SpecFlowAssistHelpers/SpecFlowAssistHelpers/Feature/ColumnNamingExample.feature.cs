@@ -19,22 +19,22 @@ namespace SpecFlowAssistHelpers.Feature
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.1.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("CreateSetExample", SourceFile="Feature\\CreateSetExample.feature", SourceLine=0)]
-    public partial class CreateSetExampleFeature
+    [TechTalk.SpecRun.FeatureAttribute("ColumnNamingExample", SourceFile="Feature\\ColumnNamingExample.feature", SourceLine=0)]
+    public partial class ColumnNamingExampleFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
         private string[] _featureTags = ((string[])(null));
         
-#line 1 "CreateSetExample.feature"
+#line 1 "ColumnNamingExample.feature"
 #line hidden
         
         [TechTalk.SpecRun.FeatureInitialize()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CreateSetExample", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "ColumnNamingExample", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -70,11 +70,11 @@ namespace SpecFlowAssistHelpers.Feature
             testRunner.CollectScenarioErrors();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Os produtos existentes", SourceLine=2)]
-        public virtual void OsProdutosExistentes()
+        [TechTalk.SpecRun.ScenarioAttribute("Column Naming Example", SourceLine=2)]
+        public virtual void ColumnNamingExample()
         {
             string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Os produtos existentes", null, ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Column Naming Example", null, ((string[])(null)));
 #line 3
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -95,20 +95,60 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
-                            "Sku",
-                            "Name",
-                            "Price"});
-                table7.AddRow(new string[] {
-                            "BOOK1",
-                            "Atlas Shrugged",
-                            "25.04"});
-                table7.AddRow(new string[] {
-                            "BOOK2",
-                            "The Fountainhead",
-                            "20.15"});
+                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                            "FirstName",
+                            "LastName",
+                            "Birthdate",
+                            "HeightInInches"});
+                table1.AddRow(new string[] {
+                            "John",
+                            "Galt",
+                            "2/2/1902",
+                            "72"});
 #line 4
- testRunner.Given("these products exist", ((string)(null)), table7, "Given ");
+ testRunner.Given("I entered the following data into the new account to column:", ((string)(null)), table1, "Given ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("Column Naming Example diferrent table", SourceLine=7)]
+        public virtual void ColumnNamingExampleDiferrentTable()
+        {
+            string[] tagsOfScenario = ((string[])(null));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Column Naming Example diferrent table", null, ((string[])(null)));
+#line 8
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                            "First name",
+                            "Last name",
+                            "Birth date",
+                            "HEIGHT In Inches"});
+                table2.AddRow(new string[] {
+                            "Peter",
+                            "Pan",
+                            "2/2/1896",
+                            "80"});
+#line 9
+ testRunner.Given("I entered the following data into the new account to column:", ((string)(null)), table2, "Given ");
 #line hidden
             }
             this.ScenarioCleanup();
