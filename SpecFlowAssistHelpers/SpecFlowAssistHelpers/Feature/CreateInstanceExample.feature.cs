@@ -70,11 +70,11 @@ namespace SpecFlowAssistHelpers.Feature
             testRunner.CollectScenarioErrors();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Add a book in vertical", SourceLine=2)]
-        public virtual void AddABookInVertical()
+        [TechTalk.SpecRun.ScenarioAttribute("Add a book with table in vertical", SourceLine=2)]
+        public virtual void AddABookWithTableInVertical()
         {
             string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add a book in vertical", null, ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add a book with table in vertical", null, ((string[])(null)));
 #line 3
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -112,6 +112,48 @@ this.ScenarioInitialize(scenarioInfo);
                             "1234.56"});
 #line 4
  testRunner.Given("I entered the following data into the new account form in vertical:", ((string)(null)), table1, "Given ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("Add a book with table in horizontal", SourceLine=10)]
+        public virtual void AddABookWithTableInHorizontal()
+        {
+            string[] tagsOfScenario = ((string[])(null));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add a book with table in horizontal", null, ((string[])(null)));
+#line 11
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                            "Name",
+                            "Birthdate",
+                            "HeightInInches",
+                            "BankAccountBalance"});
+                table2.AddRow(new string[] {
+                            "John Galt",
+                            "2/2/1902",
+                            "72",
+                            "1234.56"});
+#line 12
+ testRunner.Given("I entered the following data into the new account form in horizontal:", ((string)(null)), table2, "Given ");
 #line hidden
             }
             this.ScenarioCleanup();

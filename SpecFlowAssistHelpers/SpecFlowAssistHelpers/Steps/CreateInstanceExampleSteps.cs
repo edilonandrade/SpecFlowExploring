@@ -15,5 +15,14 @@ namespace SpecFlowAssistHelpers.Steps
             foreach (var prop in _account.GetType().GetProperties())
                 Debug.Print($"{prop.Name} - {prop.GetValue(_account, null)}");
         }
+
+        [Given(@"I entered the following data into the new account form in horizontal:")]
+        public void GivenIEnteredTheFollowingDataIntoTheNewAccountFormInHorizontal(Table account)
+        {
+            var _account = account.CreateInstance<Account>();
+            foreach (var prop in _account.GetType().GetProperties())
+                Debug.Print($"{prop.Name} - {prop.GetValue(_account, null)}");
+        }
+
     }
 }
