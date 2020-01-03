@@ -9,5 +9,6 @@ namespace SharingDataBetweenBindings.Model
     public class Book
     {
         public string Title { get; set; }
+        public int Id { get; set; }
     }
 }

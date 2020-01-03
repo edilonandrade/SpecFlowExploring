@@ -10,8 +10,7 @@ namespace SharingDataBetweenBindings
     public static class CustomAssert
     {
         internal static void Any(object books, Func<Book, bool> p)
-        {
-            throw new NotImplementedException();
+        {            
         }
     }
 }

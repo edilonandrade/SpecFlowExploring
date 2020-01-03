@@ -11,7 +11,7 @@ namespace SharingDataBetweenBindings.AspNetFaker
     {
         internal Book Model<T>()
         {
-            throw new NotImplementedException();
+            return new Book();
         }
     }
 }

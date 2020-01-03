@@ -10,7 +10,7 @@ namespace SharingDataBetweenBindings.AspNetFaker
     {
         internal ActionResult SearchItem(string searchTerm)
         {
-            throw new NotImplementedException();
+            return new ActionResult();
         }
     }
 }
