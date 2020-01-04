@@ -113,12 +113,15 @@
     <Compile Include="CatalogContext.cs" />
     <Compile Include="CustomAssert.cs" />
     <Compile Include="Model\Book.cs" />
+    <Compile Include="Model\PersonData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReferenceBookList.cs" />
+    <Compile Include="Steps\ContextInjectionExampleSteps.cs" />
     <Compile Include="Steps\SearchSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Features\Book.feature" />
+    <None Include="Features\ContextInjectionExample.feature" />
     <None Include="Features\Search.feature" />
     <None Include="packages.config" />
     <None Include="runtests.cmd" />
