@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using BoDi;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SharingDataBetweenBindings.Model;
 using System;
 using TechTalk.SpecFlow;
@@ -43,5 +44,23 @@ namespace SharingDataBetweenBindings.Steps
             displayedData, "Person name was not displayed properly");
         }
 
+    }
+
+    [Binding]
+    public class WebDriverSupport
+    {
+        private readonly IObjectContainer objectContainer;
+
+        public WebDriverSupport (IObjectContainer objectContainer)
+        {
+            this.objectContainer = objectContainer;
+        }
+
+        [BeforeScenario]
+        public void InitializeWebDriver()
+        {
+            var webDrive = new FirefoxDriver();
+            objectContainer.RegisterInstanceAs<IWebDriver>(webDrive);
+        }
     }
 }
